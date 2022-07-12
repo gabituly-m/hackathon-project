@@ -1,0 +1,25 @@
+.app { 
+  display: flex; 
+  width: 100vw; 
+  height: 100vh; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.app__video {
+  display: flex;
+  align-items: center;
+}
+
+.app__canvas {
+  position: absolute;
+}
+
+.text {
+  color: #DFF6FF;
+  font-size: 35px;
+  font-family: Impact, fantasy;
+  text-align: center;
+  padding: 20px;
+}
